@@ -1,0 +1,83 @@
+using namespace std;
+
+int main()
+{
+    int a1=0;
+    int a2=0;
+    int a3=0;
+    int a4=0;
+    
+    std::cout << "hola manu, ¿como estas hoy?" << std::endl;
+    std::cout << "espero que te encuentres bien" << std::endl;
+    std::cout << "¿?" << std::endl;
+    std::cout << "¿el sol brilla hoy?" << std::endl;
+    std::cout << "." << std::endl;
+    std::cout << "" << std::endl;
+    std::cout << "si=1" << std::endl;
+    std::cout << "no=0" << std::endl;
+    std::cin >> a1;
+     a2=a1+5;
+        if (a2>6){
+            std::cout << "cool c;" << std::endl;
+        } else {
+            std::cout << "triste" << std::endl;
+            
+        }
+        std::cin >> a3;    
+            std::cout << "" << std::endl;
+    std::cout << "¿quieres hacer algo mas hoy?" << std::endl; 
+    std::cout << ":)" << std::endl;
+    std::cin >> a3;
+    std::cout << "juguemos a un juego" << std::endl;
+    std::cout << ":o" << std::endl;
+    std::cin >> a3;
+    std::cout << "Hagamos una piza" << std::endl;
+    std::cin >> a3;
+    std::cout << "con mucho picante ajajajsj  >:)" << std::endl;
+    std::cout << "..." << std::endl;
+    std::cout << "iniciemos con lo basico" << std::endl;
+    std::cout << "la masa" << std::endl;
+    std::cin >> a3;
+    std::cout << " preparando masa :o" << std::endl;
+    cout << "[][][]";
+    std::cout << "*Musica de pizzeria*" << std::endl;
+    std::cout << "" << std::endl;
+    std::cout << "<< Ahora escojamos la salsa >>" <<std::endl;
+    std::cout << "[0]Tomate.  [1]Picante." << std::endl;
+     int ps1=0;
+    std::cin >> ps1; 
+     int ps2=ps1;
+        if(ps2<6) {
+            std::cout << "Salsa de Tomate ;)" << std::endl;
+        }else{
+            std::cout << "Salsa Picante >:)" << std::endl;
+        }
+        
+    std::cout << "" << std::endl;    
+    std::cout << "Agregamos algun ingrediente?" << std::endl;
+    std::cout << "[0]No [1]Si" << std::endl;
+        int Di1;
+        std::cin >> Di1;
+        int Di2=Di1+5;
+    if(Di2>6){
+        std::cout << "Genial" << std::endl;
+            
+            std::cout << "" << std::endl;
+            std::cout << "Agreguemos ingrdientes" << std::endl;
+            std::cout << "Peperony?" << std::endl;
+            int I0=0;
+            std::cout << "[1]N" << std::endl;
+            std::cout << "[2]S" << std::endl;
+            std::cin >> I0;
+            std::cout << "Queso ;)" << std::endl;
+            std::cout << "Cetas (?)" << std::endl;
+            
+            
+        
+    }
+    
+    
+    cout<<"Hello World";
+
+    return 0;
+}
